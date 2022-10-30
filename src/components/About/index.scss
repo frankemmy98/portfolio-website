@@ -1,0 +1,120 @@
+.stage-cube-cont {
+    width: 50%; // taking only the half of the page
+    height: 100%; 
+    top: 0;
+    padding-top: 15%;
+    margin-left: 0;
+    position: absolute;
+    right: 0; // maximum right
+    overflow: hidden;
+}
+
+.cubespinner {
+    animation-name: spincube;
+    animation-timing-function: ease-in-out;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    transform-style: preserve-3d;
+    transform-origin: 100px 100px 0; // this will center the animation
+    margin-left: calc(50% - 100px);
+
+    div {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        border: 1px solid #ccc;
+        background: rgba(255, 255, 255, 0.4);
+        align-items: center;
+        font-size: 100px;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0 0 20px 0px lightyellow; // to make the box glow
+    }
+
+    .face1 {
+        transform: rotateX(0.1deg) translateZ(100px); // separating the element into 3d space
+    }
+    .face2 {
+        transform: rotateY(90deg) translateZ(100px); // separating the element into 3d space
+    }
+    .face3 {
+        transform: rotateY(90deg) rotateX(90deg) translateZ(100px) ; // separating the element into 3d space
+    }
+    .face4 {
+        transform: rotateX(0.1deg) rotateY(180deg) rotateZ(90deg) translateZ(100px); // separating the element into 3d space
+    }
+    .face5 {
+        transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px); // separating the element into 3d space
+    }
+    .face6 {
+        transform: rotateX(-90deg) translateZ(100px); // separating the element into 3d space
+    }
+}
+
+@keyframes spincube {
+    from,
+    to {
+        transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+    }
+    16% {
+        transform: rotateY(-90deg);
+    }
+    33% {
+        transform: rotateY(-90deg) rotateZ(90deg);
+    }
+    50% {
+        transform: rotateY(-180deg) rotateZ(90deg);
+    }
+    66% {
+        transform: rotateY(-270deg) rotateZ(90deg);
+    }
+    83% {
+        transform: rotateX(90deg);
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .stage-cube-cont {
+        width: 100%;
+        height: 0;
+        overflow: visible;
+        top: 190px;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 715px) {
+    .stage-cube-cont {
+        top: 140px;
+    }
+}
+
+@media (min-width: 715px) and (max-width: 1024px) {
+    .stage-cube-cont {
+        top: 90px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 970px) {
+    .container.about-page {
+            .text-zone {
+                margin-top: -30px;
+            }
+        }
+}
+
+@media (min-width: 1026px) and (max-width: 1200px) {
+    .container.about-page {
+            .text-zone {
+                margin-top: -30px;
+                margin-left: 50px;
+            }
+
+            p {
+                margin-right: 160px;
+            }
+        }
+
+    .stage-cube-cont {
+        top: 90px;
+    }
+}
