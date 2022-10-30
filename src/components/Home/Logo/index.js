@@ -2,57 +2,59 @@ import './index.scss'
 import LogoS from '../../../assets/images/logo-e.png'
 import { useLayoutEffect, useRef } from 'react'
 import DrawSVGPlugin from 'gsap-trial/dist/DrawSVGPlugin'
-import gsap from 'gsap-trial'
+// import gsap from 'gsap-trial'
 
 const Logo = () => {
   // in order to manipulate with them and apply gsap animation to them(logos), we need to use useRef()
-  const bgRef = useRef() // for the container
-  const solidLogoRef = useRef() // solid image
-  const outlineLogoRef = useRef() // outline of the logo
+  // const bgRef = useRef() // for the container
+  // const solidLogoRef = useRef() // solid image
+  // const outlineLogoRef = useRef() // outline of the logo
 
-  //   in order to apply our animation effect we use useEffect hook.
-  useLayoutEffect(() => {
-    // first we want to register the plugin for drawing the animation on the svg.
-    gsap.registerPlugin(DrawSVGPlugin)
-    // next we call the gsap timeline function that calls the animation in a sequence
-    gsap.timeline()
-    // the 'to' function which will represent the end state of the animation
-    // the first argument is the element that we want to animate
-    // second argument is to set the properties inside the object
-    let ctx = gsap.context(() => {
-      gsap.to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
+  // //   in order to apply our animation effect we use useEffect hook.
+  // useLayoutEffect(() => {
+  //   // first we want to register the plugin for drawing the animation on the svg.
+  //   gsap.registerPlugin(DrawSVGPlugin)
+  //   // next we call the gsap timeline function that calls the animation in a sequence
+  //   gsap.timeline()
+  //   // the 'to' function which will represent the end state of the animation
+  //   // the first argument is the element that we want to animate
+  //   // second argument is to set the properties inside the object
+  //   let ctx = gsap.context(() => {
+  //     gsap.to(bgRef.current, {
+  //       duration: 1,
+  //       opacity: 1,
+  //     })
 
-      // the 'from' function receives the first argument as the element that you want to animate
-      gsap.from(outlineLogoRef.current, {
-        drawSVG: 0, // starting point. It starts from the very begining
-        duration: 20,
-      })
-    })
+  //     // the 'from' function receives the first argument as the element that you want to animate
+  //     gsap.from(outlineLogoRef.current, {
+  //       drawSVG: 0, // starting point. It starts from the very begining
+  //       duration: 20,
+  //     })
+  //   })
 
-    // to fade the solid logo
-    gsap.fromTo(
-      solidLogoRef.current,
-      {
-        opacity: 0, // starting point
-      },
-      {
-        opacity: 0.6, // end state of our animation
-        delay: 4,
-        duration: 4,
-      }
-    )
+  //   // to fade the solid logo
+  //   gsap.fromTo(
+  //     solidLogoRef.current,
+  //     {
+  //       opacity: 0, // starting point
+  //     },
+  //     {
+  //       opacity: 0.6, // end state of our animation
+  //       delay: 4,
+  //       duration: 4,
+  //     }
+  //   )
 
-    return () => {
-      ctx.revert()
-    }
-  }, [])
+  //   return () => {
+  //     ctx.revert()
+  //   }
+  // }, [])
 
   return (
-    <div className="logo-container" ref={bgRef}>
-      <img src={LogoS} alt="S" className="solid-logo" ref={solidLogoRef} />
+    //  ref={bgRef}
+    <div className="logo-container">
+      {/* ref={solidLogoRef} */}
+      <img src={LogoS} alt="S" className="solid-logo" />
       <svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +70,7 @@ const Logo = () => {
           className="svg-container"
         >
           <path
-            ref={outlineLogoRef}
+            // ref={outlineLogoRef}
             d="M2930 8959 c-344 -16 -623 -85 -915 -228 -231 -114 -406 -241 -600
 -436 -61 -60 -145 -137 -188 -169 -432 -325 -715 -757 -806 -1230 -109 -564
 21 -1117 384 -1641 250 -360 780 -877 1547 -1511 451 -373 600 -505 803 -708
