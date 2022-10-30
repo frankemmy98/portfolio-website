@@ -81,6 +81,10 @@
     }
 }
 
+@media screen {
+    
+}
+
 @media screen and (max-width: 750px) {
     .tags,
     .home-page h1::before,
@@ -115,7 +119,7 @@
             box-sizing: border-box;
 
             .solid-logo {
-                top: 80px;
+                top: 90px;
             }
 
             svg {
@@ -130,7 +134,7 @@
     }
 }
 
-@media (min-width: 750px) and (max-width: 1200px) {
+@media (min-width: 752px) and (max-width: 1200px) {
     .home-page h1::before {
             margin-top: -50px;
             margin-left: -90px;
