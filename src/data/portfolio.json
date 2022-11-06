@@ -11,6 +11,12 @@
             "title": "color-generator",
             "description": "React, JSX, CSS, value.js",
             "url": "https://emmanuel-react-color-generator.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/cocktail-app/cocktail.png",
+            "title": "cocktail",
+            "description": "React, JSX, CSS",
+            "url": "https://emmanuel-react-cocktail.netlify.app/"
         }
     ]
 }
