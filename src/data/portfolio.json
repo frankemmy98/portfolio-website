@@ -5,6 +5,12 @@
             "title": "menu",
             "description": "React, JSX, CSS",
             "url": "http://emmanuel-react-menu-app.netlify.app"
+        },
+        {
+            "cover": "/portfolio/color-generator-app/color-generator.png",
+            "title": "color-generator",
+            "description": "React, JSX, CSS, value.js",
+            "url": "https://emmanuel-react-color-generator.netlify.app/"
         }
     ]
 }
