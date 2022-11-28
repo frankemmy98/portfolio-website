@@ -9,7 +9,7 @@
         {
             "cover": "/portfolio/color-generator-app/color-generator.png",
             "title": "color-generator",
-            "description": "React, JSX, CSS, value.js",
+            "description": "React, JSX, CSS, ValueJS",
             "url": "https://emmanuel-react-color-generator.netlify.app/"
         },
         {
@@ -17,6 +17,18 @@
             "title": "cocktail",
             "description": "React, JSX, CSS",
             "url": "https://emmanuel-react-cocktail.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/tenzies-app/tenzies.png",
+            "title": "tenzies-game",
+            "description": "React, JSX, CSS",
+            "url": "https://emmanuel-tenzies-game-react.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/meme-app/meme.png",
+            "title": "meme-generator",
+            "description": "React, JSX, CSS",
+            "url": "https://emmanuel-meme-generator-react.netlify.app/"
         }
     ]
 }
