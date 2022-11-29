@@ -29,6 +29,12 @@
             "title": "meme-generator",
             "description": "React, JSX, CSS",
             "url": "https://emmanuel-meme-generator-react.netlify.app/"
+        },
+        {
+            "cover": "/portfolio/cart-app/cart.png",
+            "title": "cart",
+            "description": "React, JSX, CSS",
+            "url": "https://emmanuel-cart-app-redux-toolkit.netlify.app//"
         }
     ]
 }
