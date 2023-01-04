@@ -4,7 +4,7 @@
     width: 60px;
     height: 100%; 
     position: fixed;
-    top: 0; // check if need changes
+    top: 0; // check if need, change
     z-index: 3;
     min-height: 500px; // to hide overflow on smaller screens
 
@@ -15,11 +15,11 @@
         img {
             display: block;
             margin: 8px auto;
-            width: 24px; // changes 25
+            width: 24px;
             height: auto;
 
             &.sub-logo {
-                width: 50px; // changes 55
+                width: 50px;
             }
         }
     }
