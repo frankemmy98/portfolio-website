@@ -37,19 +37,19 @@
       "url": "https://emmanuel-cart-app-redux-toolkit.netlify.app//"
     },
     {
-      "cover": "/weather-app/weather.png",
+      "cover": "/portfolio/weather-app/weather.png",
       "title": "weather-app",
       "description": "React, API, TailwindCSS",
       "url": "https://emmanuel-weather-app-react.netlify.app/"
     },
     {
-      "cover": "/hasob-app/hasob.png",
+      "cover": "/portfolio/hasob-app/hasob.png",
       "title": "pre-assessment-test",
       "description": "React, TailwindCSS",
       "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
     },
     {
-      "cover": "/advanced-cart-app/adv-cart.png",
+      "cover": "/portfolio/advanced-cart-app/adv-cart.png",
       "title": "advanced-cart-ts",
       "description": "React, React-Router, Bootstrap",
       "url": "https://react-ts-advanced-shopping-cart.netlify.app/"
