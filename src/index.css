@@ -1,0 +1,45 @@
+
+*, ::before, ::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: block;
+  font-family:  'Helvetica Neue', 'sans-serif'; 
+  line-height: 1.4;
+  color: #444;
+  background: #022c43;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+    line-height: 1.2;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

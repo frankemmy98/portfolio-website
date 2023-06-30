@@ -1,0 +1,58 @@
+{
+  "portfolio": [
+    {
+      "cover": "/portfolio/cocktail-app/cocktail.png",
+      "title": "Cocktail",
+      "description": "React, React-Router",
+      "url": "https://emmanuel-react-cocktail.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/tenzies-app/tenzies.png",
+      "title": "Tenzies game",
+      "description": "React",
+      "url": "https://emmanuel-tenzies-game-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/color-generator-app/color-generator.png",
+      "title": "Color generator",
+      "description": "React, ValueJS",
+      "url": "https://emmanuel-react-color-generator.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/weather-app/weather.png",
+      "title": "Weather app",
+      "description": "React, RestAPI, TailwindCSS",
+      "url": "https://emmanuel-weather-app-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/menu-app/my-menu.png",
+      "title": "Menu app",
+      "description": "React",
+      "url": "http://emmanuel-react-menu-app.netlify.app"
+    },
+    {
+      "cover": "/portfolio/meme-app/meme.png",
+      "title": "meme generator",
+      "description": "React",
+      "url": "https://emmanuel-meme-generator-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/cart-app/cart.png",
+      "title": "Cart app",
+      "description": "React, Redux",
+      "url": "https://emmanuel-cart-app-redux-toolkit.netlify.app//"
+    },
+    {
+      "cover": "/portfolio/hasob-app/hasob.png",
+      "title": "Pre-assessment test",
+      "description": "React, TailwindCSS",
+      "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/advanced-cart-app/adv-cart.png",
+      "title": "Advanced-cart-ts",
+      "description": "React, React-Router, Bootstrap",
+      "url": "https://react-ts-advanced-shopping-cart.netlify.app/"
+    }
+  ]
+}

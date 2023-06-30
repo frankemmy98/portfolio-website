@@ -1,0 +1,30 @@
+.text-animate {
+     display: inline-block; // we want this to appear as a word and a sentence
+     opacity: 0; // we want them to pop out.
+     animation: bounceIn 1s 1s;
+     animation-fill-mode: forwards; // we want the letters to stay visible
+     min-width: 10px; // so they dont jump around
+}
+
+.text-animate-hover {
+    min-width: 10px; // so the text dont jump around
+    display: inline-block;
+    animation-fill-mode: both;
+
+    &:hover {
+        animation: rubberBand 1s;
+        color: #ffd700;
+    }
+}
+
+// we want to add a delay to the indexes that we created 
+// and every single letter is going to appear one by one.
+// we use for loop to go from the indexes of 1 - 35
+
+@for $i from 1 to 35 {
+    .text-animate._#{$i} {
+        animation-delay: #{$i / 10}s;
+    }
+}
+
+
