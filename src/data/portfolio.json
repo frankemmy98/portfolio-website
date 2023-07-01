@@ -13,6 +13,12 @@
       "url": "https://emmanuel-tenzies-game-react.netlify.app/"
     },
     {
+      "cover": "/portfolio/aircraft-app/aircraft.png",
+      "title": "Aircraft app",
+      "description": "React, RestAPI, SCSS",
+      "url": "https://aircraft-app-react.netlify.app/"
+    },
+    {
       "cover": "/portfolio/color-generator-app/color-generator.png",
       "title": "Color generator",
       "description": "React, ValueJS",
@@ -31,12 +37,6 @@
       "url": "http://emmanuel-react-menu-app.netlify.app"
     },
     {
-      "cover": "/portfolio/meme-app/meme.png",
-      "title": "meme generator",
-      "description": "React",
-      "url": "https://emmanuel-meme-generator-react.netlify.app/"
-    },
-    {
       "cover": "/portfolio/cart-app/cart.png",
       "title": "Cart app",
       "description": "React, Redux",
@@ -47,12 +47,6 @@
       "title": "Pre-assessment test",
       "description": "React, TailwindCSS",
       "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
-    },
-    {
-      "cover": "/portfolio/advanced-cart-app/adv-cart.png",
-      "title": "Advanced-cart-ts",
-      "description": "React, React-Router, Bootstrap",
-      "url": "https://react-ts-advanced-shopping-cart.netlify.app/"
     }
   ]
 }
