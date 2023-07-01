@@ -1,13 +1,32 @@
 {
   "portfolio": [
     {
+<<<<<<< HEAD
       "cover": "/portfolio/cocktail-app/cocktail.png",
       "title": "Cocktail",
       "description": "React, React-Router",
+=======
+      "cover": "/portfolio/menu-app/my-menu.png",
+      "title": "menu",
+      "description": "React, CSS",
+      "url": "http://emmanuel-react-menu-app.netlify.app"
+    },
+    {
+      "cover": "/portfolio/color-generator-app/color-generator.png",
+      "title": "color-generator",
+      "description": "React, CSS, ValueJS",
+      "url": "https://emmanuel-react-color-generator.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/cocktail-app/cocktail.png",
+      "title": "cocktail",
+      "description": "React, React-Router, CSS",
+>>>>>>> caaeff346bf0f561d80a5a1c082e83050ce196e2
       "url": "https://emmanuel-react-cocktail.netlify.app/"
     },
     {
       "cover": "/portfolio/tenzies-app/tenzies.png",
+<<<<<<< HEAD
       "title": "Tenzies game",
       "description": "React",
       "url": "https://emmanuel-tenzies-game-react.netlify.app/"
@@ -47,6 +66,41 @@
       "title": "Pre-assessment test",
       "description": "React, TailwindCSS",
       "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
+=======
+      "title": "tenzies-game",
+      "description": "React, CSS",
+      "url": "https://emmanuel-tenzies-game-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/meme-app/meme.png",
+      "title": "meme-generator",
+      "description": "React, CSS",
+      "url": "https://emmanuel-meme-generator-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/cart-app/cart.png",
+      "title": "cart",
+      "description": "React, Redux, CSS",
+      "url": "https://emmanuel-cart-app-redux-toolkit.netlify.app//"
+    },
+    {
+      "cover": "/portfolio/weather-app/weather.png",
+      "title": "weather-app",
+      "description": "React, API, TailwindCSS",
+      "url": "https://emmanuel-weather-app-react.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/hasob-app/hasob.png",
+      "title": "pre-assessment-test",
+      "description": "React, TailwindCSS",
+      "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
+    },
+    {
+      "cover": "/portfolio/advanced-cart-app/adv-cart.png",
+      "title": "advanced-cart-ts",
+      "description": "React, React-Router, Bootstrap",
+      "url": "https://react-ts-advanced-shopping-cart.netlify.app/"
+>>>>>>> caaeff346bf0f561d80a5a1c082e83050ce196e2
     }
   ]
 }
