@@ -21,13 +21,13 @@
 
   .solid-logo {
     position: absolute;
-    top: 15%;
-    right: auto;
-    bottom: 15%;
-    left: 15%;
-    margin: auto;
+    // top: 15%;
+    // right: auto;
+    // bottom: 15%;
+    // left: 15%;
+    // margin: auto;
     width: 70%;
-    opacity: 1;
+    // opacity: 1;
     transform: rotateZ(30deg) !important;
     z-index: 1;
   }
@@ -39,10 +39,10 @@
   opacity: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .logo-container {
-    .solid-logo {
-      bottom: 8%;
-    }
-  }
-}
+// @media screen and (max-width: 768px) {
+//   .logo-container {
+//     .solid-logo {
+//       bottom: 8%;
+//     }
+//   }
+// }
