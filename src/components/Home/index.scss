@@ -91,9 +91,14 @@
     .text-zone {
       position: initial;
       width: 100%;
+      text-align: center;
       transform: none;
       padding: 10px 15px;
       box-sizing: border-box;
+
+      img {
+        width: 8%;
+      }
     }
 
     h1 {
