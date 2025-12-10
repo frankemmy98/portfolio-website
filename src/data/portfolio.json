@@ -1,6 +1,12 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/kanban-dashboard/kanban-dashboard.png",
+      "title": "Kanban Dashboard",
+      "description": "React, TailwindCSS, DND",
+      "url": "https://dashboard-test2025.netlify.app/"
+    },
+    {
       "cover": "/portfolio/cocktail-app/cocktail.png",
       "title": "Cocktail",
       "description": "React, React-Router",
@@ -8,43 +14,43 @@
     },
     {
       "cover": "/portfolio/tenzies-app/tenzies.png",
-      "title": "Tenzies game",
+      "title": "Tenzies Game",
       "description": "React",
       "url": "https://emmanuel-tenzies-game-react.netlify.app/"
     },
     {
       "cover": "/portfolio/aircraft-app/aircraft.png",
-      "title": "Aircraft app",
+      "title": "Aircraft App",
       "description": "React, RestAPI, SCSS",
       "url": "https://aircraft-app-react.netlify.app/"
     },
     {
       "cover": "/portfolio/color-generator-app/color-generator.png",
-      "title": "Color generator",
+      "title": "Color Generator",
       "description": "React, ValueJS",
       "url": "https://emmanuel-react-color-generator.netlify.app/"
     },
     {
       "cover": "/portfolio/weather-app/weather.png",
-      "title": "Weather app",
+      "title": "Weather App",
       "description": "React, RestAPI, TailwindCSS",
       "url": "https://emmanuel-weather-app-react.netlify.app/"
     },
     {
       "cover": "/portfolio/menu-app/my-menu.png",
-      "title": "Menu app",
+      "title": "Menu App",
       "description": "React",
       "url": "http://emmanuel-react-menu-app.netlify.app"
     },
     {
       "cover": "/portfolio/cart-app/cart.png",
-      "title": "Cart app",
+      "title": "Cart App",
       "description": "React, Redux",
       "url": "https://emmanuel-cart-app-redux-toolkit.netlify.app//"
     },
     {
       "cover": "/portfolio/hasob-app/hasob.png",
-      "title": "Pre-assessment test",
+      "title": "Pre-assessment Test",
       "description": "React, TailwindCSS",
       "url": "https://pre-assessment-test-hasobcareers.netlify.app/"
     }
