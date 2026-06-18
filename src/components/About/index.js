@@ -35,9 +35,10 @@ const About = () => {
             />
           </h1>
           <p>
-            I am an innovative, task-driven Frontend / React Developer based in
-            Lagos, Nigeria specializing in building exceptional websites and
-            implementing new features based on user feedback.
+            I am an innovative, task-driven Full-Stack / We3 Developer based in
+            Lagos, Nigeria specializing in building exceptional full-functional,
+            scalable websites and implementing new features based on user
+            feedback.
           </p>
         </div>
 

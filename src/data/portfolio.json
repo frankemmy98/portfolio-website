@@ -1,15 +1,21 @@
 {
   "portfolio": [
     {
+      "cover": "/portfolio/web3-website/web3-website.png",
+      "title": "Web3 Website",
+      "description": "React, Solidity",
+      "url": "https://blockchain-website-web3-0.vercel.app/"
+    },
+    {
       "cover": "/portfolio/kanban-dashboard/kanban-dashboard.png",
       "title": "Kanban Dashboard",
-      "description": "React, TailwindCSS, DND",
+      "description": "React, DND",
       "url": "https://dashboard-test2025.netlify.app/"
     },
     {
       "cover": "/portfolio/cocktail-app/cocktail.png",
       "title": "Cocktail",
-      "description": "React, React-Router",
+      "description": "React",
       "url": "https://emmanuel-react-cocktail.netlify.app/"
     },
     {
@@ -29,12 +35,6 @@
       "title": "Color Generator",
       "description": "React, ValueJS",
       "url": "https://emmanuel-react-color-generator.netlify.app/"
-    },
-    {
-      "cover": "/portfolio/weather-app/weather.png",
-      "title": "Weather App",
-      "description": "React, RestAPI, TailwindCSS",
-      "url": "https://emmanuel-weather-app-react.netlify.app/"
     },
     {
       "cover": "/portfolio/menu-app/my-menu.png",
